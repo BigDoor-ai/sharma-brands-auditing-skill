@@ -1,0 +1,30 @@
+{
+  "name": "sharma-brands-auditing-skill",
+  "version": "0.1.0",
+  "description": "An open-source Codex and Claude Code skill for auditing websites against Sharma Brands-inspired conversion principles.",
+  "type": "module",
+  "bin": {
+    "sharma-audit": "./scripts/audit-url.mjs"
+  },
+  "scripts": {
+    "audit": "node ./scripts/audit-url.mjs",
+    "test": "node ./scripts/audit-url.mjs --help"
+  },
+  "keywords": [
+    "sharma-brands",
+    "nik-sharma",
+    "website-audit",
+    "landing-page-audit",
+    "cro",
+    "conversion-rate-optimization",
+    "codex",
+    "claude-code",
+    "agents-md",
+    "ai-agent"
+  ],
+  "author": "BigDoor AI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
