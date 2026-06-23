@@ -1,0 +1,22 @@
+[
+  {
+    "query": "Audit my SaaS landing page for conversion issues",
+    "should_trigger": true,
+    "expected_behavior": "Use the skill to score clarity, hero, CTA, proof, education, mobile, forms, pricing, and friction."
+  },
+  {
+    "query": "Build a Next.js landing page for a WhatsApp lead capture SaaS",
+    "should_trigger": true,
+    "expected_behavior": "Generate a conversion page with hero, trust, problem, workflow, benefits, demo, use cases, proof, pricing, FAQs, final CTA, and footer."
+  },
+  {
+    "query": "Fix this TypeScript error in my API route",
+    "should_trigger": false,
+    "expected_behavior": "Do not use this skill unless website conversion quality is relevant."
+  },
+  {
+    "query": "Rewrite this hero section so visitors understand what we sell faster",
+    "should_trigger": true,
+    "expected_behavior": "Use the 3-second clarity test and provide replacement headline/subheadline/CTA options."
+  }
+]
